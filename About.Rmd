@@ -1,0 +1,6 @@
+## About the website
+
+This is a sample website developed by Nayak. It shows the map of Manipal, an international educational town, with three points marked: Manipal Academy of Higher Education, Manipal Institute of Technology and Kasturba Medical College.
+
+
+

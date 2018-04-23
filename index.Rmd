@@ -1,0 +1,19 @@
+---
+title: "Nayak's WebSite"
+author: "nayak"
+date: "April 23, 2018"
+output: html_document
+---
+
+```{r Manipal}
+library(leaflet)
+library(magrittr)
+
+MyMap <- leaflet() %>% 
+  addTiles() %>% 
+  setView(74.7870, 13.3530, zoom = 15) %>% 
+  addMarkers(74.7849, 13.3533, popup = 'MAHE') %>%
+  addMarkers(74.7873, 13.3529, popup = 'KMC') %>%
+  addMarkers(74.7928, 13.3525, popup = 'MIT')
+MyMap
+```

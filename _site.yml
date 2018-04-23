@@ -1,0 +1,9 @@
+name: "nayak-website"
+navbar:
+  title: "Nayak's Website"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+      
